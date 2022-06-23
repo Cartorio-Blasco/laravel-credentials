@@ -43,7 +43,7 @@ class EditCredentialsCommand extends Command
         $editorParams = config('credentials.editorParams');
 
         $process = new Process(
-            [$editor, $editorParams, $meta['uri']],
+            [$editor, $meta['uri']],
             null,
             null,
             null,

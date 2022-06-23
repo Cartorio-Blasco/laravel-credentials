@@ -17,8 +17,6 @@ return [
 
     'editor' => env('EDITOR', 'vi'),
 
-    'editorParams' => env('EDITOR_PARAMS'),
-
-    'timeout' => env('EDITOR_TIMEOUT', 60)
+    'timeout' => env('EDITOR_TIMEOUT', 600)
 
 ];
